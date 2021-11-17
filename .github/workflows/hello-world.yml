@@ -35,6 +35,6 @@ jobs:
     runs-on: windows-latest
     
     steps:
-      - uses: action/checkout@v2
-      
-      - run: echo Hello World!
+      - name: Step com name
+        uses: actions/checkout@v2
+      - run: echo Hello Windows world!
